@@ -1,5 +1,5 @@
 {
-  "name": "query-mbtiles",
+  "name": "query-remote-tiles",
   "version": "0.1.0",
   "description": "Find nearest features to a point in a remotely hosted vector tile source.",
   "main": "index.js",
