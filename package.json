@@ -1,0 +1,26 @@
+{
+  "name": "query-mbtiles",
+  "version": "0.1.0",
+  "description": "Find nearest features to a point in a remotely hosted vector tile source.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Steve Bennett <me@stevebennett.me> (http://stevebennett.me)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mapbox/vtquery": "^0.3.0",
+    "axios": "^0.18.0",
+    "global-mercator": "^3.0.3"
+  },
+  "keywords": [
+    "mbtiles",
+    "point",
+    "polygon",
+    "geojson",
+    "query",
+    "lookup"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "repository": "https://github.com/stevage/QueryRemoteTiles"
+}
