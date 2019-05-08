@@ -8,7 +8,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@mapbox/vt2geojson": "^1.1.5",
-    "@turf/boolean-point-in-polygon": "^6.0.1",
+    "@turf/boolean-point-in-polygon": "5.1.5",
     "es6-promisify": "^6.0.1",
     "global-mercator": "^3.0.3"
   },
