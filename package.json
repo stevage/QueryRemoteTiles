@@ -7,8 +7,8 @@
   "author": "Steve Bennett <me@stevebennett.me> (http://stevebennett.me)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@mapbox/vtquery": "^0.3.0",
-    "axios": "^0.18.0",
+    "@mapbox/vt2geojson": "^1.1.5",
+    "@turf/boolean-point-in-polygon": "^6.0.1",
     "global-mercator": "^3.0.3"
   },
   "keywords": [
