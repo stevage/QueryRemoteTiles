@@ -1,4 +1,4 @@
-const promisify = require('util').promisify;
+const {promisify} = require("es6-promisify");
 const mercator = require('global-mercator');
 const vt2geojson = promisify(require('@mapbox/vt2geojson'));
 const pointInPolygon = require('@turf/boolean-point-in-polygon').default;
