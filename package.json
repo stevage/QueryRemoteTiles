@@ -1,6 +1,6 @@
 {
   "name": "query-remote-tiles",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Find nearest features to a point in a remotely hosted vector tile source.",
   "main": "index.js",
   "scripts": {},
