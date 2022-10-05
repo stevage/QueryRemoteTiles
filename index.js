@@ -2,7 +2,9 @@ const { promisify } = require('es6-promisify');
 const mercator = require('global-mercator');
 const vt2geojson = promisify(require('@mapbox/vt2geojson'));
 let pointInPolygon = require('@turf/boolean-point-in-polygon');
-
+pointInPolygon = pointInPolygon.default
+    ? pointInPolygon.default
+    : pointInPolygon;
 async function queryLngLat(
     tilesUrl,
     lngLat,
