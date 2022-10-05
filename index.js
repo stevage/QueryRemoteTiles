@@ -24,7 +24,7 @@ async function queryLngLat(
             };
         }
     } catch (e) {
-        if (!quiet) {
+        if (!options.quiet) {
             console.error(e);
         }
     }
